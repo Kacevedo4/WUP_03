@@ -19,6 +19,7 @@ davisdata <- read.csv(file="UCDavis.csv")
 # Introduction 
 
 Our data provided is from the UCDavis.csv 
+Is the amount of alcohol consumed per week different seating rows
 ## Now with ggplot - first select the basic data
 
 ```{r}
