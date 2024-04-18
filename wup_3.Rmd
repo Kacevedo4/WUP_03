@@ -68,4 +68,4 @@ Bases on the Tukey HSD test we determined that people seated in the back row dri
 
 ## Conclusions
 
-
+We tried to determined what kind of  difference in students who consume alcohol in rows 1, 2, 3 are.So, the p-value is 0.000116 which is less than 0.05 and it  means that we reject the null hypothesis. Once we analized the graph given to us.We can say that students in the back row drink more alcohol than the middle and front row.
