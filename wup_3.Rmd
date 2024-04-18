@@ -16,6 +16,7 @@ davisdata <- read.csv(file="UCDavis.csv")
 ```
 ## Our Goal is to answer this question Is there a difference between the alcohol consumed between the row
 ## you choose to sit in??
+
 # Introduction 
 
 Our data provided is from the UCDavis which is the amount of alcohol consumed per week different seating rows
@@ -24,23 +25,16 @@ $B_0$: There is no difference in the average amount of alcohol consumed per week
 
 $H_A$:The average of the number drinks is different between at least two rows. 
 
-## Now with ggplot - first select the basic data
+#Methods
+We are trying to predict the alcohol consumption based on the seating rows
 
-```{r}
-basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
-```
-## Now add in boxplot
+Data :
 
-```{r}
-basicCN + geom_boxplot()
-```
-  
-  
-### get fancy  
+alcohol ~ Seat
+alcohol is a numerical variable
+seat is a categorical variable
 
-```{r}
-basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
-```
+So we use the numerical~cat file.
 
 ## Numerical Summarys 
 
