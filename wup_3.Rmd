@@ -18,13 +18,12 @@ davisdata <- read.csv(file="UCDavis.csv")
 ## you choose to sit in??
 # Introduction 
 
-Our data provided is from the UCDavis.csv 
-Is the amount of alcohol consumed per week different seating rows
+Our data provided is from the UCDavis which is the amount of alcohol consumed per week different seating rows
 
 $B_0$: There is no difference in the average amount of alcohol consumed per week base on seating row.
 
-$H_A$:There IS a difference in the average amount of alcohol 
-consumed per week base on seating row.
+$H_A$:The average of the number drinks is different between at least two rows. 
+
 ## Now with ggplot - first select the basic data
 
 ```{r}
