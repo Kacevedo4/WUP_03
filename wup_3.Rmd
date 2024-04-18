@@ -35,6 +35,14 @@ alcohol is a numerical variable
 seat is a categorical variable
 
 So we use the numerical~cat file.
+#Description
+#Graphical Description 
+
+```{r}
+boxplot(alcohol~Seat,data=davisdata)
+```
+This shows that there is a significant difference in the back rows consumption of alcohol compared to the middle and back rows in other words the box plot, students in the back row seem to be consuming more alcohol. 
+
 
 ## Numerical Summarys 
 
