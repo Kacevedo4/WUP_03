@@ -60,6 +60,12 @@ summary.aov(model1)
 This shows that the P-value is 0.000116 which means that the students in all the rows don't consume the same amount of alcohol. 
 
 
+```{r}
+plot(TukeyHSD(model1))
+```
+
+Bases on the Tukey HSD test we determined that people seated in the back row drink more than people drinking in the middle and front rows. There is change in alcohol consumption between the middle and front rows. 
+
 ## Conclusions
 
 
