@@ -43,8 +43,12 @@ boxplot(alcohol~Seat,data=davisdata)
 ```
 This shows that there is a significant difference in the back rows consumption of alcohol compared to the middle and back rows in other words the box plot, students in the back row seem to be consuming more alcohol. 
 
-
 ## Numerical Summarys 
+
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+ the table shows that the back row has a mean of 9.6 and the front row has a mean of 1.8,also that the middle row has a mean of 3.2. So this shows that students in the back row tend to drink more.
 
 ## Inferential Tests
 
