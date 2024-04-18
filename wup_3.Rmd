@@ -48,9 +48,17 @@ This shows that there is a significant difference in the back rows consumption o
 ```{r}
 favstats(alcohol~Seat,data=davisdata)
 ```
- the table shows that the back row has a mean of 9.6 and the front row has a mean of 1.8,also that the middle row has a mean of 3.2. So this shows that students in the back row tend to drink more.
+The table shows that the back row has a mean of 9.6 and the front row has a mean of 1.8,also that the middle row has a mean of 3.2. So this shows that students in the back row tend to drink more.
 
 ## Inferential Tests
+
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+This shows that the P-value is 0.000116 which means that the students in all the rows don't consume the same amount of alcohol. 
+
 
 ## Conclusions
 
